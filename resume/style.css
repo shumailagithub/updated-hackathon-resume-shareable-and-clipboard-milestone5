@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resumeDiv{
+    width: 70%;
+    background-color: #000957;
+    padding: 1%;
+    border-radius: 2px solid black ;
+    
+}
+header{
+    width: 100%;
+    height: 160px;
+    background-color: #000957;
+    color: #EBE645;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+header p{
+    font-size: 25px;
+}
+header img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+
+}
+.aside{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+.contentDiv{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    margin: auto;
+    background-color: #DDE6ED;
+
+    
+}
+.contentDiv h2,
+.contact h2,
+.skills h2,
+.langage h2,
+.experience h2,
+.experience-2 h2,
+.experience-3 h2,
+.experience h2,
+.projects h2{
+   border-bottom: 5px solid #000957; 
+   margin-top: 20px;
+   margin-bottom: 20px;
+   
+}
+.contentDiv .contactDetails .iconDiv {
+    margin: 10px;
+    margin-left: -30px;
+    text-align: left;
+
+}
+.contentDiv .aside{
+    width: 30%;
+    background-color: rgb(242, 237, 242);
+  
+
+    
+
+}
+.iconDiv{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.contact{
+    margin-bottom: 8px;
+
+}
+.contact p,
+.education p,
+.langage p,
+.experience p,
+.experience-2 p,
+.experience-4 p,
+.experience-3 p{
+    margin-bottom: 8px;
+    color: #000957;
+    
+
+}
+.skills ul,
+.experience ul,
+.experience-2 ul,
+.experience-3 ul,
+.experience-4 ul {
+    margin-left: 20px;
+    color: #000957;
+
+}
+.skills ul li,
+.experience ul li,
+.experience-2 ul li,
+.experience-3 ul li,
+.experience-4 ul li {
+    margin-bottom: 8px;
+    color: #000957;
+
+
+}
+.main{
+    width: 70%;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.projects address{
+    margin-top: 20px;
+     
+}
+.buttonsDiv{
+    width: 70%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #000957;
+    color: white;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #DDE6ED;
+        color: #000957;
+        
+    }
+    &:active{
+          transform: scale(0.98);
+
+}
+}
+.hide{
+    display: none;
+}
+
+@media print{
+  .buttonsDiv{
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+    .contentDiv{
+      flex-direction: column;  
+    }
+    .aside, .main{
+        width: 100%;
+    }
+}

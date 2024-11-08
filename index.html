@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shareable + Clipboard Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>RESUME FORM</h1>
+
+    <form  id="form">
+        <h2>PERSONAL DETAILS</h2>
+        <hr style="margin-bottom: 20px;">
+
+        <div class="form_group">
+            <label class="label" for="myname">Name: </label>
+            <input class="input" type="text " id="myname" >
+        </div>
+
+        <div class="form_group">
+            <label class="label" for="designation">Designation: </label>
+            <input class="input" type="text " id="designation" >
+        </div>
+
+        <div class="form_group">
+            <label class="label" for="phone">Phone: </label>
+            <input class="input" type="tel " id="phone" 
+            >
+        </div>
+
+        <div class="form_group">
+            <label class="label" for="email">Email: </label>
+            <input class="input" type="email " id="email" >
+        </div>
+
+        <div class="form_group">
+            <label class="label" for="address">Address: </label>
+            <input class="input" type="text " id="address" >
+        </div>
+
+
+        <div class="form_group">
+            <label class="label" for="pic">Profile Picture: </label>
+            <input class="input" type="file " id="pic" >
+        </div>
+
+
+        <h2>EDUCATION</h2>
+        <hr style="margin-bottom: 20px;">
+    
+        <div>
+            <div class="form_group">
+                <label class="label" for="degree">Degree: </label>
+                <input class="input" type="text" id="degree" >
+            </div>
+            <div class="form_group">
+                <label class="label" for="institute">Institute: </label>
+                <input class="input" type="text" id="institute" >
+            </div>
+    
+            <div class="form_group">
+                <label class="label" for="pass">Passing Year: </label>
+                <input class="input" type="number" id="pass" >
+            </div>
+        </div>
+
+        <h2>SKILLS</h2>
+        <hr style="margin-bottom: 20px;">
+        
+        <div class="form_group">
+            <label class="label"  for="skills">Skill #1: </label>
+            <input class="input mb-20"  type="text" id="skill1" >
+            
+            <label class="label"  for="skills">Skill #2: </label>
+            <input class="input mb-20" type="text" id="skill2" autocomplete="off"
+            <label class="label"  for="skills">Skill #3: </label>
+            <input class="input mb-20" type="text" id="skill3">
+
+        </div>
+
+
+        <h2>LANGAGE</h2>
+        <hr style="margin-bottom: 20px;">
+        
+        <div class="form_group">
+            <label class="label"  for="langage1">LANGAGE 1: </label>
+            <input class="input mb-20"  type="text" id="langage1" >
+            </div>
+
+            <div class="form_group">
+                <label class="label"  for="langage2">LANGAGE 2: </label>
+                <input class="input mb-20"  type="text" id="langage2" >
+                </div>
+
+                <h2>IT EXPERIANCE</h2>
+        <hr style="margin-bottom: 20px;">
+        
+        <div class="form_group">
+            <label class="label"  for="itExpireance">IT EXPERIANCE: </label>
+            <input class="input mb-20"  type="text" id="itExpireance" >
+            </div>
+
+            <div class="form_group">
+                <label class="label" for="startYear">start Year: </label>
+                <input class="input" type="number" id="startYear" >
+            </div>
+
+            <div class="form_group">
+                <label class="label" for="endYear">Ending Year: </label>
+                <input class="input" type="number" id="endYear" >
+            </div>
+
+            <div class="form_group">
+                <label class="label" for="compony">Company: </label>
+                <input class="input" type="text" id="compony" >
+            </div>
+
+            <h2>PROJECTS</h2>
+        <hr style="margin-bottom: 20px;">
+        
+        <div class="form_group">
+            <label class="label"  for="project1">PROJECTS 1: </label>
+            <input class="input mb-20"  type="text" id="project1" >
+            </div>
+
+            <div class="form_group">
+                <label class="label"  for="project2">PROJECTS 2: </label>
+                <input class="input mb-20"  type="text" id="project2" >
+                </div>
+
+        <hr style="margin-bottom: 20px;">
+        <div class="btnDiv"><input id="submit_btn" class="submit" type="submit"></div>
+        
+
+    </form>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
